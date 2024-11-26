@@ -10,5 +10,8 @@ module.exports = defineConfig({
     actionTimeout: 10000,
     baseURL: process.env.BASE_URL || 'https://demoqa.com',
   },
-  reporter: [['html', { outputFolder: 'playwright-report' }]],
+  reporter: [
+    ['list'],
+    ['html', { outputFolder: 'playwright-report' }]
+  ],
 });

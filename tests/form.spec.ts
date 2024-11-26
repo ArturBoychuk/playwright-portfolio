@@ -15,7 +15,6 @@ test.describe('Form Submission Tests', () => {
         await formPage.submitForm()
     });
 
-
     test('Filling form with invalid phone', async ({page}) => {
         const pageManager = new PageManager(page)
         const formPage = pageManager.getFormPage()

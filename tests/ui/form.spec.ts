@@ -1,5 +1,5 @@
 import {test, expect} from '@playwright/test';
-import {PageManager} from '../helpers/PageManager';
+import {PageManager} from '../../helpers/PageManager';
 
 test.describe('Form Submission Tests', () => {
 

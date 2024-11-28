@@ -1,0 +1,15 @@
+{
+    "validRequest": {
+      "data": {
+        "userName": "nitnou",
+        "password": "Qwigty4r@nyashkiu"
+      }
+    },
+    "invalidUserRequest": {
+      "data": {
+        "userName": "wrongUser",
+        "password": "Qwigty4r@nyashkiu"
+      }
+    }
+  }
+  
